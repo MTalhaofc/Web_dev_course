@@ -1,0 +1,169 @@
+body{
+    background-image: url('img.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 200px;
+}
+
+.service-section {
+    background-color: #f8f9fa; /* Light grey background */
+    padding: 40px 0; /* Padding around the section */
+  }
+  .service-icon {
+    font-size: 24px; /* Icon size */
+    color: #f4623a; /* Icon color */
+  }
+  .service-header {
+    font-size: 20px; /* Header size */
+    color: #333; /* Header color */
+    margin-top: 15px; /* Space between icon and header */
+  }
+  .service-text {
+    font-size: 14px; /* Text size */
+    color: #666; /* Text color */
+  }
+  .featured-section {
+    padding: 20px;
+    background-color: #f8f9fa; /* Adjust the background color as needed */
+  }
+  .category-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Adjust the space between items as needed */
+  }
+  .category-icon {
+    font-size: 24px; /* Adjust icon size as needed */
+    width: 30px; /* Adjust width as needed */
+    margin-right: 15px;
+    margin-bottom: 50px;
+  ; /* Adjust spacing between icon and text as needed */
+    text-align: center;
+    color: #007bff; /* Adjust icon color as needed */
+  }
+  .category-text {
+    flex: 1;
+  }
+  .category-image {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1); /* Adjust shadow as needed */
+  }
+  .pricing-plan {
+    border: none;
+    border-radius: 15px;
+    padding: 20px;
+    color: white;
+    background: linear-gradient(to bottom right, #333, #777);
+    margin: 10px;
+    text-align: center;
+  }
+  .pricing-header {
+    font-size: 26px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  .price {
+    font-size: 42px;
+    margin-bottom: 20px;
+  }
+  .benefit-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  .benefit-list li {
+    margin-bottom: 10px;
+  }
+  .plan-button {
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: #ff6a00;
+    color: white;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+  }
+  .plan-button:hover {
+    background-color: #e65c00;
+  }
+  /* Custom colors for different plans */
+  .individual {
+    background: linear-gradient(to bottom right, #4e54c8, #8f94fb);
+  }
+  .startup {
+    background: linear-gradient(to bottom right, #11998e, #38ef7d);
+  }
+  .enterprise {
+    background: linear-gradient(to bottom right, #ff416c, #ff4b2b);
+  }
+
+
+
+
+
+
+  .team-member {
+    padding: 20px;
+    background-color: #f8f9fa; /* Light background color */
+    text-align: center;
+  }
+  .member-info {
+    margin-top: 10px;
+  }
+  .member-photo {
+    border-radius: 5px; /* Circular images */
+    width: 150px; /* Fixed size */
+    height: 150px;
+    object-fit: cover; /* Cover ensures the aspect ratio is maintained */
+  }
+  .member-name {
+    font-size: 18px; /* Larger font size for names */
+    font-weight: bold; /* Bold font for emphasis */
+  }
+  .member-role {
+    font-style: italic; /* Italic font for the role */
+    color: #555; /* Dark grey color for contrast */
+  }
+  .social-links {
+    margin-top: 10px;
+  }
+  .social-icon {
+    font-size: 16px; /* Standard icon size */
+    margin: 0 5px; /* Spacing between icons */
+    color: #333; /* Darker icon color for visibility */
+  }
+
+
+
+  .contact-section {
+    padding: 40px;
+    background: url('img.jpg') no-repeat center center;
+    background-size: cover; /* Cover the entire section with the background */
+    color: #fff; /* White text color */
+  }
+  .contact-form {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 5px;
+ /* Slightly rounded corners for the form */
+  }
+  .form-group{
+    margin: 15px;
+  }
+  .contact-info {
+    margin-top: 20px; /* Space between form and contact info */
+  }
+  .contact-item {
+    margin-bottom: 10px; /* Space between contact items */
+  }
+  .contact-icon {
+    color: #007bff; /* Bootstrap primary color for icons */
+    margin-right: 10px; /* Space between icon and text */
+  }
+  .btn-send {
+    background-color: #007bff; /* Bootstrap primary button color */
+    color: #fff; /* White text color for the button */
+    border: none;
+    border-radius: 20px; /* Rounded edges for the button */
+    padding: 10px 20px;
+  }

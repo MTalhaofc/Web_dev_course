@@ -1,5 +1,4 @@
 <h2 align="center"><u>Web Dev Course</u></h2>
-
 ![Content for my Web Development Course](https://img.freepik.com/free-vector/portrait-programmer-working-with-pc_23-2148222500.jpg?t=st=1718372996~exp=1718376596~hmac=739823712d6027a321a6f2ce5d31975cb34b4168fd05eaedfacb814e9cbc0d2d&w=740)
 <h4 align="center"> Content for my Web Development Course </h4>
 

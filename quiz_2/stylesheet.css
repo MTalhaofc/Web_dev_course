@@ -1,0 +1,15 @@
+
+.main {
+    display: flex;
+    flex-direction: column; 
+}
+
+label {
+    display: flex;
+    flex-direction: row; 
+    margin-bottom: 10px; 
+}
+
+label > div {
+    margin-left: 10px; 
+}

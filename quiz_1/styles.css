@@ -1,0 +1,57 @@
+Apply common styles to all boxes
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+header{
+    background-color: lightgray;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.image-slider {
+    /* width: */
+    height: 200px;
+    background-color: lightgrey;
+    text-align: center;
+    margin-right: 50%;
+}
+
+
+.thumbnails {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.thumbnail {
+    width: calc(25% - 10px);
+    height: 100px;
+    background-color: lightgrey;
+    text-align: center;
+}
+image{
+    background-color: lightgray;
+    height: 10px;
+}
+h1, h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+div.subheader{
+    display: flex;
+flex-direction: row;
+}
+div.subheader1{
+    background-color: lightgray;
+    margin-left: 280px;
+}
+div.subheader2{
+    background-color: lightgray;}
+footer{
+
+    background-color: lightgray;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}

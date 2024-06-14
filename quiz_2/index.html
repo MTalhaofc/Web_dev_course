@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz 2</title>
+     <link rel="stylesheet" href="stylesheet.css">
+     <script src="jquery-3.7.1.min.js"></script>
+
+</head>
+<body>
+    <h2>Registration From</h2>
+    
+    <form id="registrationForm">
+    <div class="main">
+    <label>Universty
+    <div>
+        <input type="text" id="uni">
+    </div>
+</label>
+<label>Institute
+    <div><input type="text" id="Institute"></div>
+</label>
+<label>Branch
+    <div> <select name="degree" id="degree" required>
+        <option value="none" selected>--Select--</option>
+        <option value="BCS">BCS</option>
+        <option value="BSE">BSE</option>
+    </select></div>
+</label>
+<label>Degree
+    <div> <select name="degree" id="degree" required>
+        <option value="none" selected>--Select--</option>
+        <option value="Sahiwal">Sahiwal</option>
+                    <option value="Lahore">Lahore</option>
+    </select><input type="radio" id="radio1">Pursuing <input type="radio"id="radio1">Completed</div>
+</label>
+<label>Average CPI
+     <div><input type="number" id="upto">Upto<input type="number" id="sem">Semesters </div>
+</label>
+<label>Experience
+    <div><input type="number" id="years">Years</div>
+</label>
+<label>Website Link
+    <div><input type="url" id="link" ></div>
+</label>
+</div>
+<div><input type="submit" id= "submit"></div>
+</form>
+<script>
+    $(document).ready(function(){
+        $('#registrationForm').on('submit', function(event) {
+            
+            event.preventDefault(); 
+
+            
+            var universityInput = $('#uni').val().trim();
+            var universityPattern = /^[a-zA-Z\s]+$/; 
+
+            if (!universityPattern.test(universityInput)) {
+                alert('University name can only contain alphabets and spaces.');
+                return; 
+            }
+
+
+            var instituteInput = $('#Institute').val().trim();
+            var institutePattern = /^[a-zA-Z\s]+$/;
+
+            if (!institutePattern.test(instituteInput)) {
+                alert('Institute name can only contain alphabets and spaces.');
+                return; 
+            }
+
+
+            var inputs = $('input[type="number"]');
+            var empty = false;
+
+            inputs.each(function(){
+            if ($(this).val().trim() === '') { 
+                    empty = true;
+                    return false; 
+                }
+            });
+
+            if (empty) {
+                alert('Please fill in all the fields.');
+                return; 
+            }
+
+            this.submit();
+        });
+    });
+</script>
+
+</body>
+</html>
